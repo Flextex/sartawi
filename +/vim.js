@@ -37,7 +37,7 @@
   return dec;
 }
     function showlink(){
-       var urldes = base64_decode(document.location.href.match(/a\/\?(.+)\/?/)[1]);
+       var urldes = base64_decode(document.location.href.match(/+\/\?(.+)\/?/)[1]);
        buton.innerHTML = 'DESCARGAR';
        buton.onclick = function (){
          location.href = urldes;
