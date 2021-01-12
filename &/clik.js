@@ -39,7 +39,7 @@ function base64_decode (data) {
 }
     function showlink(){
        var urldes = base64_decode(document.location.href.match(/&\/\?(.+)\/?/)[1]);
-       buton.innerHTML = 'DESCARGAR';
+       buton.innerHTML = 'ACCEDER AL CURSO';
        buton.onclick = function (){
          location.href = urldes;
        }
